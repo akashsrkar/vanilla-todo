@@ -1,6 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: Montserrat;
+  background: 
+  linear-gradient(113deg, rgba(0,0,255,0), rgba(176,35,218,0.82));
+  /* filter: contrast(170%) brightness(1000%); */
+    height: 100vh;
 }
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 2.5rem; 
+}
+
+main{
+    margin: 2rem auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    background-color: whitesmoke;
+    width: 600px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid lightslategray;
+}
+
+form input[type="text"] {
+    outline: 0;
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+}
+
+form button{
+    font-size: 2rem;
+}
+
+form button:hover{
+    cursor: pointer;
+}
+
+#list-container{
+    border: 2px solid green;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    width: 600px;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+#todo-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-list li{
+    padding: 5px;
+    font-size: 2rem;
+}
+
+#clear{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+
+
