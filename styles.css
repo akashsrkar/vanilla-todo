@@ -77,6 +77,11 @@ form button:hover{
     align-items: center;
     border-bottom: 1px solid lightslategray;
     padding: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.transition-fall{
+    transform: translateY(12rem) rotateZ(10deg);
 }
 
 .button-container{
@@ -112,6 +117,10 @@ form button:hover{
 
 #clear:hover{
     color: red;
+}
+
+i{
+    pointer-events: none;
 }
 
 
