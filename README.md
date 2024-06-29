@@ -8,3 +8,4 @@
 6. "pointer-events" property (css)
 7. Adding elements dynamically with innerHTML.
 8. element.remove()
+9. document.createDocumentFragement()
